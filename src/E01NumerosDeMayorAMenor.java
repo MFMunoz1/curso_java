@@ -11,6 +11,10 @@ public class E01NumerosDeMayorAMenor {
         System.out.println("Ingrese numero 2");
         int numero2 = escaner.nextInt();
 
+        for( int i = 0; i <= 10; i++){
+            System.out.println(i);
+        }
+
         if(numero1 > numero2){
             System.out.println(s.append(numero1).append(" ").append(numero2));
         }else{
