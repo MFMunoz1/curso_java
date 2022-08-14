@@ -60,7 +60,7 @@ public class SentenciaEjercicio02 {
             System.out.println("el promedio menor a 4 es: " + promedioMe4 + " - ");
             System.out.println("Cantidad Unos: " + cantidadUnos + " - ");
             System.out.println("el promedio total es: " + promedioTotal + " - ");
-
+            System.out.println("Fin");
 
     }
 }
