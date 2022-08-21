@@ -19,10 +19,10 @@ public class EjemploJavaUtilCalendar {
 
 
         Date fecha = calendario.getTime();
-        System.out.println("fecha sin formato = " + fecha);
+        System.out.println("fecha sin formato = " + fecha); //Sat Jul 25 12:20:10 CLT 2020
 
         SimpleDateFormat formato = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss:SSS");
         String fechaConFormato = formato.format(fecha);
-        System.out.println("fecha con formato = " + fechaConFormato);
+        System.out.println("fecha con formato = " + fechaConFormato); //2020-07-25 12:20:10:125
     }
 }
